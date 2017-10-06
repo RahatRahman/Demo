@@ -50,7 +50,7 @@ include 'classes/Superadmin.php';
                           ?>  
                      ]);  
                 var options = {  
-                      title: 'Male to Female Employees',  
+                      title: 'Male & Female Employees',  
                       is3D:true,  
                       //pieHole: 0.4  
                      };  
