@@ -4,7 +4,7 @@
 		<!-- main content start-->
 		<div id="page-wrapper">
 			<div class="main-page">
-				<!-- <div class="row-one">
+				<div class="row-one">
 					<div class="col-md-4 widget">
 						<div class="stats-left ">
 							<h5>Today</h5>
@@ -36,8 +36,8 @@
 						<div class="clearfix"> </div>	
 					</div>
 					<div class="clearfix"> </div>	
-				</div> -->
-				<!-- <div class="charts">
+				</div>
+				<div class="charts">
 					<div class="col-md-4 charts-grids widget">
 						<h4 class="title">Bar Chart Example</h4>
 						<canvas id="bar" height="300" width="400"> </canvas>
@@ -124,9 +124,9 @@
 							
 							</script>
 							
-				</div> -->
+				</div>
 				<div class="row">
-					<!-- <div class="col-md-4 stats-info widget">
+					<div class="col-md-4 stats-info widget">
 						<div class="stats-title">
 							<h4 class="title">Browser Stats</h4>
 						</div>
@@ -164,8 +164,8 @@
 								</li> 
 							</ul>
 						</div>
-					</div> -->
-					<!-- <div class="col-md-8 stats-info stats-last widget-shadow">
+					</div>
+					<div class="col-md-8 stats-info stats-last widget-shadow">
 						<table class="table stats-table ">
 							<thead>
 								<tr>
@@ -214,15 +214,14 @@
 								</tr>
 							</tbody>
 						</table>
-					</div> -->
+					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="row">
-				<!--map js-->
-					<!-- <div class="col-md-8 map widget-shadow">
+					<div class="col-md-8 map widget-shadow">
 						<h4 class="title">Visitors Map </h4>
 						<div class="map_container"><div id="vmap" style="width: 100%; height: 354px;"></div></div>
-						
+						<!--map js-->
 						<link href="css/jqvmap.css" rel='stylesheet' type='text/css' />
 						<script src="js/jquery.vmap.js"></script>
 						<script src="js/jquery.vmap.sampledata.js" type="text/javascript"></script>
@@ -243,9 +242,9 @@
 								});
 							});
 						</script>
-						
-					</div> -->
-					<!-- <div class="col-md-4 social-media widget-shadow">
+						<!-- //map js -->
+					</div>
+					<div class="col-md-4 social-media widget-shadow">
 						<div class="wid-social twitter">
 							<div class="social-icon">
 								<i class="fa fa-twitter text-light icon-xlg "></i>
@@ -339,7 +338,7 @@
 						<div class="clearfix"> </div>
 					</div>
 					<div class="clearfix"> </div>
-				</div> -->
+				</div>
 				<div class="row calender widget-shadow">
 					<h4 class="title">Calender</h4>
 					<div class="cal1">
