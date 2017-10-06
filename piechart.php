@@ -14,11 +14,7 @@ include 'classes/Superadmin.php';
  
  	<!--banner-->	
 		     <div class="banner">
-		    	<h2>
-				<a href="index.html">Home</a>
-				<i class="fa fa-angle-right"></i>
-				<span>Pie Chart</span>
-				</h2>
+		    	<h3 class="title1">Pie Chart</h3>
 		    </div>
 		<!--//banner-->
  	 <!--faq-->
