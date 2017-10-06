@@ -49,7 +49,7 @@
 				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
 					<ul class="nav" id="side-menu">
 						<li>
-							<a href="index.php" class="active"><i class="fa fa-home nav_icon"></i>Dashboard</a>
+							<a href="piechart.php" class="active"><i class="fa fa-home nav_icon"></i>Dashboard</a>
 						</li>
 
 						<li>

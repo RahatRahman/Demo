@@ -134,6 +134,30 @@ public function save_all_promotion($data){
   echo '<script>document.location.replace("all_promotion.php");</script>';
   
 }
+public function view_all_member_gender(){
+  $query = "SELECT gender, count(*) as number  FROM tbl_add_member GROUP BY gender";
+  $statment = $this->db_con->query($query);
+
+  return $statment;
+}
+public function view_all_member_eType(){
+  $query = "SELECT employeeType, count(*) as number  FROM tbl_add_member GROUP BY employeeType";
+  $eType = $this->db_con->query($query);
+
+  return $eType;
+}
+public function view_all_member_eCat(){
+  $query = "SELECT employeeCategory, count(*) as number  FROM tbl_add_member GROUP BY employeeCategory";
+  $eCat = $this->db_con->query($query);
+
+  return $eCat;
+}
+public function view_all_member_eAge(){
+  $query = "SELECT dateOfBirth, count(*) as number  FROM tbl_add_member GROUP BY dateOfBirth";
+  $eAge = $this->db_con->query($query);
+
+  return $eAge;
+}
 public function view_all_member_info(){
   $query = "SELECT * FROM tbl_add_member";
   $statment = $this->db_con->query($query);
