@@ -51,8 +51,8 @@ include 'classes/Superadmin.php';
                      ]);  
                 var options = {  
                       title: 'Male to Female Employees',  
-                      //is3D:true,  
-                      pieHole: 0.4  
+                      is3D:true,  
+                      //pieHole: 0.4  
                      };  
                 var chart = new google.visualization.PieChart(document.getElementById('piechart'));  
                 chart.draw(data, options);  
@@ -70,9 +70,11 @@ include 'classes/Superadmin.php';
                           ?>  
                      ]);  
                 var options = {  
-                      title: 'Employees by Types',  
-                      //is3D:true,  
-                      pieHole: 0.4  
+                      title: 'Employees by Types',
+                      is3D:true,
+                      //pieHole: 0.4  
+                        
+                        
                      };  
                 var chart = new google.visualization.PieChart(document.getElementById('eType'));  
                 chart.draw(data, options);  
@@ -90,8 +92,8 @@ include 'classes/Superadmin.php';
                      ]);  
                 var options = {  
                       title: 'Employees by Categories',  
-                      //is3D:true,  
-                      pieHole: 0.4  
+                      is3D:true,  
+                      //pieHole: 0.4  
                      };  
                 var chart = new google.visualization.PieChart(document.getElementById('eCat'));  
                 chart.draw(data, options);  
@@ -109,8 +111,8 @@ include 'classes/Superadmin.php';
                      ]);  
                 var options = {  
                       title: 'Employees by Work Types',  
-                      //is3D:true,  
-                      pieHole: 0.4  
+                      is3D:true,  
+                      //pieHole: 0.4  
                      };  
                 var chart = new google.visualization.PieChart(document.getElementById('eAge'));  
                 chart.draw(data, options);  

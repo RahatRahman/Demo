@@ -69,9 +69,7 @@ if(isset($_POST['btn'])){
               </div>
             </div>
 
-            
-
-            
+                        
 
             <div class="form-group row">
               <div class="col-sm-2"></div>
@@ -79,6 +77,8 @@ if(isset($_POST['btn'])){
                 <input class="btn btn-primary btn-block" type="submit" name="btn" value="Submit">
               </div>
             </div>
+
+
 
             
 
