@@ -1,5 +1,5 @@
 <div class="footer">
-		  <!-- <center> <p>Powered &copy; Rahat</p></center> -->
+		 
 		</div>
         <!--//footer-->
 	</div>
