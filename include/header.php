@@ -81,7 +81,7 @@
         <!--toggle button end-->
         <!--logo -->
         <div class="logo">
-          <a href="index.html">
+          <a href="index.php">
             <h1>NOVUS</h1>
             <span>AdminPanel</span>
           </a>
